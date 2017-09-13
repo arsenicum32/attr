@@ -1,0 +1,13 @@
+h1 Раскадровка
+ul.timeline
+  - for(var i=0;i<20;i++)
+    li 
+      nobr
+        p(href='#') name #{i}
+        br
+        p(href='#') action #{i}
+        br
+        img.i(src="http://placehold.it/200x120")
+        br
+        small 20 секунд назад 
+      .bubble

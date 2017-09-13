@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  font-family: Hack;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100vh;
+}
+body #top{
+  position: fixed;
+  top: 10px;
+  left: 10px;
+}
+video, canvas{
+  position: fixed;
+  top: 80px;
+  left: 10px;
+}
+.timeline {
+  margin: 0;
+  padding: 4px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100vw;
+  overflow-x: scroll;
+}
+.timeline li {
+  display: inline;
+  border-bottom: 2px solid #00f;
+  padding: 20px;
+  padding-bottom: 0px;
+  margin-bottom: 15px;
+}
+.timeline li .i {
+  width: 200px;
+  height: 120px;
+}
+.timeline li p {
+  margin: 0;
+  padding: 0;
+}
+.timeline li small {
+  opacity: 0.5;
+}
+.timeline li .bubble {
+  width: 7px;
+  height: 7px;
+  background: #fff;
+  border-radius: 50%;
+  border: 3px solid #f00;
+  position: relative;
+  top: 7px;
+}
+.timeline li a {
+  line-height: 15px;
+}
